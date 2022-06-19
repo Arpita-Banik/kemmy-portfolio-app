@@ -1,0 +1,166 @@
+.progress_container {
+  background: rgba(0, 0, 0, 0.8) url(../../image/skill.webp);
+  height: 700px;
+  width: 100%;
+  color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+}
+
+.progress {
+  background-color: transparent;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.progress_item {
+  padding: 0.5rem 0;
+}
+
+.progress_title {
+  color: #18d26e;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.progress_bar {
+  position: relative;
+  width: 30rem;
+  height: 12px;
+  border-radius: 2rem;
+  background: rgb(222, 222, 222);
+}
+
+/* @media (max-width: 768px) {
+  .progress_bar {
+    width: 25rem;
+  }
+}
+
+@media (max-width: 440px) {
+  .progress_bar {
+    width: 300px;
+  }
+}
+
+@media (max-width: 340px) {
+  .progress_bar {
+    width: 280px;
+  }
+} */
+
+.bar {
+  border-radius: inherit;
+  background: linear-gradient(90deg, #5b4dda, #0dcaf0, #18d26e);
+  position: absolute;
+  transition: width 1.5s cubic-bezier(0.1, 0.42, 0.85, 1);
+  width: 0;
+  height: 100%;
+  left: 0;
+}
+
+.bar::after {
+  content: attr(data-text);
+  position: absolute;
+  right: 0;
+  top: -2rem;
+  width: 4rem;
+  height: 2rem;
+  /* background: rgb(41, 61, 102); */
+  font-size: 15px;
+  /* line-height: 2rem; */
+  color: #18d26e;
+  text-align: center;
+  border-radius: 0.1rem;
+  animation: text 0.6s ease-in-out;
+}
+
+.bar::before {
+  content: ' ';
+  position: absolute;
+  right: 1rem;
+  top: -1rem;
+  /* border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-top: 10px solid rgb(41, 61, 102); */
+  animation: text 0.6s ease-in-out;
+}
+
+@keyframes text {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.interests .icon-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 30px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 4px;
+  box-shadow: 0 0 9px #fff;
+  transition: ease-in-out 0.3s;
+}
+
+.interests .icon-box i {
+  font-size: 32px;
+  padding-right: 10px;
+  line-height: 1;
+}
+
+.interests .icon-box h3 {
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-size: 16px;
+  color: #fff;
+}
+
+.interests .icon-box:hover {
+  background: rgba(255, 255, 255, 0.12);
+}
+
+@media only screen and (max-width: 425px) {
+  .progress_container {
+    height: 800px;
+  }
+
+  .progress {
+    height: 60vh;
+  }
+
+  .progress_bar {
+    width: 140px;
+
+  }
+
+  .progress_title {
+    text-align: start;
+    padding-left: 8px;
+  }
+  .bar::after {
+    content: attr(data-text);
+    text-align: end;
+    margin-left: 20px;
+  }
+
+  .interests .icon-box {
+    padding: 20px 40px;
+  }
+
+}

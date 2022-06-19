@@ -1,0 +1,126 @@
+.contact-bg {
+    background-color: black !important;
+}
+
+.contact {
+    border-radius: 0 16px;
+    transition: all 1s;
+    width: 420px;
+    border: 2px solid #fff;
+    background: hsla(0, 0%, 100%, 0);
+    margin: 25px 0;
+    padding: 18px 12px;
+    box-shadow: 0 0 9px #fff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cont-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    background: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.cont-icon i {
+    color: #0dcaf0;
+    font-size: 30px;
+    transition: .5s;
+}
+
+.cont-icon i:hover {
+    color: orange;
+    transform: scale(.8);
+}
+
+.add-details form {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-details form input,
+textarea {
+    border-radius: 0 16px;
+    transition: all 1s;
+    color: white;
+    border: 2px solid #fff;
+    background: hsla(0, 0%, 100%, 0);
+    margin: 15px 0;
+    padding: 0 15px;
+    box-shadow: 0 0 9px #fff;
+    width: 77%;
+    height: 55px;
+}
+
+.inputSubmit {
+    background: #0dcaf0;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.inputSubmit:hover {
+    background-color: #0dcaf0;
+    color: white;
+}
+
+@media only screen and (max-width: 425px) {
+    .contact {
+        width: 100%;
+        height: 60px;
+        padding: 15 8px;
+
+    }
+
+    .contact h5 {
+        font-size: 14px;
+    }
+
+    .cont-icon {
+        width: 40px;
+        height: 40px;
+        border-radius: 5px;
+        background: dodgerblue;
+        text-align: center;
+        padding-top: 5px;
+    }
+
+    .cont-icon i {
+        color: #fff;
+        font-size: 30px;
+        transition: .5s;
+
+    }
+
+    .add-details form input,
+    textarea {
+        margin: 10px 0;
+        padding: 0 10px;
+        width: 100%;
+        height: 40px;
+    }
+
+    .inputSubmit {
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .cont-icon {
+        width: 38px;
+        height: 38px;
+        background: #fff;
+        padding: 7px;
+    }
+
+    .cont-icon i {
+        color: #0dcaf0;
+        font-size: 24px;
+    }
+}

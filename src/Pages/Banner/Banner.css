@@ -1,0 +1,64 @@
+.background {
+    background: rgba(0, 0, 0, 0.8) url(../../image/city.jpg);
+    height: 620px;
+    width: 100%;
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+}
+
+.banner-header {
+    font-size: 50px;
+    font-weight: 900;
+}
+.banner-info{
+    z-index: 200;
+}
+.main-img {
+    height: 560px;
+    width: 550px;
+    position: relative;
+    z-index: 200;
+}
+
+.icon {
+    font-size: 25px;
+    border-radius: 0 16px;
+    transition: all 1s;
+    width: 42px;
+    border: 2px solid #fff;
+    background: hsla(0, 0%, 100%, 0);
+    padding: 10px;
+    box-shadow: 0 0 9px #fff;
+    cursor: pointer;
+}
+
+.icon:hover {
+    color: #0a192f !important;
+    background: #fff;
+}
+.btn-style{
+    border: 3px solid #fff;
+    background: hsla(0, 0%, 100%, 0);
+    padding:  8px 20px;
+    box-shadow: 0 0 9px #fff;
+    cursor: pointer;
+}
+#tsparticles{
+    height: 620px;
+    position: absolute;
+    top: 0;
+}
+
+@media only screen and (max-width: 425px) {
+    .background {
+        height: 738px;
+        width: 100%;
+    }
+
+    .main-img {
+        height: 300px;
+        width: 290px;
+    }
+}
