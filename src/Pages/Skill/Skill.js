@@ -1,5 +1,5 @@
 import React from 'react';
-import './MySkill.css'
+import './MySkill.css';
 
 const Skill = () => {
     window.onload = function () {
@@ -159,4 +159,4 @@ const Skill = () => {
     );
 };
 
-export default Skill;
+export default Skill; 

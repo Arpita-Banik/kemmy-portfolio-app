@@ -40,13 +40,11 @@
     width: 25rem;
   }
 }
-
 @media (max-width: 440px) {
   .progress_bar {
     width: 300px;
   }
 }
-
 @media (max-width: 340px) {
   .progress_bar {
     width: 280px;
@@ -163,4 +161,4 @@
     padding: 20px 40px;
   }
 
-}
+} 

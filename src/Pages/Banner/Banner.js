@@ -31,14 +31,15 @@ const Banner = () => {
                                     <i className="icon me-4 fab text-info fa-linkedin-in"></i>
                                 </a>
                                 <a href="https://github.com/" target="_blank">
-                                    <i className="icon me-4 ps-2 fab text-info fa-github"></i>
+                                    <i className="icon me-4 fab text-info fa-github"></i>
                                 </a>
                                 <a href="https://web.facebook.com/" target="_blank">
                                     <i className="icon fab text-info fa-facebook-f"></i>
                                 </a>
                             </div>
                             <div className="mt-5">
-                                <a className="btn btn-info text-light me-4 btn-style" target="_blank" href="https://drive.google.com/"><i class="fab fa-arrow-down"> Download Resume</i>
+                                <a className="btn btn-info text-light me-4 btn-style" target="_blank" href="https://drive.google.com/">
+                                    My Resume
                                 </a>
                                 <button className="btn btn-info btn-style">
                                     <Link
