@@ -19,9 +19,9 @@ const Skill = () => {
     };
 
     return (
-        <div className="progress_container pt-md-5" id='skills'>
+        <div className="progress_container pt-md-5 " id='skills'>
             <div className="container">
-                <div className="section-title d-flex pt-4">
+                <div className="section-title d-flex">
                     <h5 className="pe-3 text-white">Skills</h5> <hr className="hr" />
                 </div>
                 <div className="row my-0">
@@ -111,43 +111,12 @@ const Skill = () => {
                                 <h3>Problem Solving</h3>
                             </div>
                         </div>
-
-                        {/* <div className="col-lg-3 col-md-4 mt-4 mt-lg-0">
-                            <div className="icon-box">
-                                <i className="fas fa-chart-bar text-beguni"></i>
-                                <h3>Math</h3>
-                            </div>
-                        </div> */}
-
-                        {/* <div className="col-lg-3 col-md-4 mt-4">
-                            <div className="icon-box">
-                                <i className="far fa-calendar-alt text-pink"></i>
-                                <h3>IoT</h3>
-                            </div>
-                        </div> */}
-
-                        {/* <div className="col-lg-3 col-md-4 mt-4">
-                            <div className="icon-box">
-                                <i className="fas fa-robot text-warning"></i>
-                                <h3>Machine Learning</h3>
-                            </div>
-                        </div> */}
-
                         <div className="col-lg-3 col-md-4 mt-4 mt-md-0">
                             <div className="icon-box">
                                 <i className="fas fa-database text-green"></i>
                                 <h3>Database</h3>
                             </div>
                         </div>
-
-
-                        {/* <div className="col-lg-3 col-md-4 mt-4 ">
-                            <div className="icon-box">
-                                <i className="fas fa-store text-yellow"></i>
-                                <h3>Drawing</h3>
-                            </div>
-                        </div> */}
-
                     </div>
 
                 </div>

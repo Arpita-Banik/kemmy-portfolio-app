@@ -1,5 +1,5 @@
 import { useParams } from 'react-router';
-import data from './projects.json';
+import data from './project.json';
 import Navbar from '../Shared/Navbar/Navbar';
 import Footer from '../Shared/Footer/Footer';
 

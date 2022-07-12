@@ -12,10 +12,10 @@ const Projects = () => {
     }, [])
     return (
         <>
-        <div className="project-bg pt-md-5" id='projects' data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="2000" >
+        <div className="project-bg" id='projects' data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="2000" >
             <div className="container portfolio">
-                <div className="d-flex pt-4">
-                    <h5 className="pe-3  text-white">Projects</h5> <hr className="hr" />
+                <div className="d-flex pt-5">
+                    <h5 className="pe-3 text-white">Projects</h5> <hr className="hr" />
                 </div>
                 <div className="row g-0 py-md-3 py-3 m-0 d-flex align-items-center justify-content-center">
                     {

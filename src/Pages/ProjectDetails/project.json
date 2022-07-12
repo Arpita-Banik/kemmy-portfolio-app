@@ -1,11 +1,11 @@
 [
     {
         "id": "001",
-        "image": "https://i.ibb.co/3MTmPWt/project1.png",
-        "title": "E Commerce Website",
-        "description": "Developed a product selling website",
+        "image": "https://i.ibb.co/XpFwMDH/project1.png",
+        "title": "E-Commerce-Shop",
+        "description": "Developed E Commerce Website",
         "detail": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis aut, autem harum corrupti quos mollitia voluptatum.",
-        "preview": "https://clicktravels-522b3.web.app/",
+        "preview": "https://e-commerce-shop-80967.web.app/",
         "clientSide": "https://github.com/"
     },
     {
@@ -19,24 +19,6 @@
     },
     {
         "id": "003",
-        "image": "https://i.ibb.co/3MTmPWt/project1.png",
-        "title": "E Commerce Website",
-        "description": "Developed a product selling website",
-        "detail": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis aut, autem harum corrupti quos mollitia voluptatum.",
-        "preview": "https://clicktravels-522b3.web.app/",
-        "clientSide": "https://github.com/"
-    },
-    {
-        "id": "004",
-        "image": "https://i.ibb.co/3MTmPWt/project1.png",
-        "title": "E Commerce Website",
-        "description": "Developed a product selling website",
-        "detail": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis aut, autem harum corrupti quos mollitia voluptatum.",
-        "preview": "https://clicktravels-522b3.web.app/",
-        "clientSide": "https://github.com/"
-    },
-    {
-        "id": "005",
         "image": "https://i.ibb.co/3MTmPWt/project1.png",
         "title": "E Commerce Website",
         "description": "Developed a product selling website",

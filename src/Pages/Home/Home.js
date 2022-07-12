@@ -6,7 +6,6 @@ import Projects from '../Projects/Projects';
 import Footer from '../Shared/Footer/Footer';
 import Navbar from '../Shared/Navbar/Navbar';
 import Skill from '../Skill/Skill';
-// import Skills from '../Skills/Skills';
 
 const Home = () => {
     return (
@@ -14,7 +13,6 @@ const Home = () => {
             <Navbar/>
             <Banner/>
             <About/>
-            {/* <Skills/> */}
             <Skill/>
             <Projects/>
             <Contact/>

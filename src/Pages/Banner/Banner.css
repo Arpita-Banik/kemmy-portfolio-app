@@ -1,6 +1,6 @@
 .background {
     background: rgba(0, 0, 0, 0.8) url(../../image/city.jpg);
-    height: 620px;
+    height: 600px;
     width: 100%;
     color: white;
     background-size: cover;
@@ -16,7 +16,7 @@
     z-index: 200;
 }
 .main-img {
-    height: 560px;
+    height: 550px;
     width: 550px;
     position: relative;
     z-index: 200;
@@ -45,6 +45,10 @@
     box-shadow: 0 0 9px #fff;
     cursor: pointer;
 }
+.btn-style:hover{
+    border: 3px solid #fff;
+   background-color: #0dcaf0;
+}
 #tsparticles{
     height: 620px;
     position: absolute;
@@ -53,12 +57,15 @@
 
 @media only screen and (max-width: 425px) {
     .background {
-        height: 738px;
+        height: 700px;
         width: 100%;
     }
-
+    .banner-header {
+        font-size: 40px;
+        font-weight: 900;
+    }
     .main-img {
-        height: 300px;
+        height: 313px;
         width: 290px;
     }
 }

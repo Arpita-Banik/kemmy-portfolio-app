@@ -135,11 +135,11 @@
 
 @media only screen and (max-width: 425px) {
   .progress_container {
-    height: 800px;
+    height: 840px;
   }
 
   .progress {
-    height: 60vh;
+    height: 320px;
   }
 
   .progress_bar {
